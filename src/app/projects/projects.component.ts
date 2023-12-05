@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProjectComponent } from '../project/project.component';
 
 @Component({
   selector: 'app-projects',
@@ -9,6 +10,9 @@ import { Component } from '@angular/core';
         <p class="title">
           Coming Soon...
         </p>
+        <div>
+          <app-project></app-project>
+        </div>
         </div>
       </div>
     </section>

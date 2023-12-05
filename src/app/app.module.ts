@@ -10,6 +10,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     ProjectsComponent,
     BlogComponent,
     SocialIconsComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
