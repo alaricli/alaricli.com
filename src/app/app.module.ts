@@ -2,15 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { BlogComponent } from './blog/blog.component';
-import { SocialIconsComponent } from './social-icons/social-icons.component';
-import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ProjectComponent } from './project/project.component';
+import { HeaderComponent } from '../components/header/header.component';
+import { FooterComponent } from '../components/footer/footer.component';
+import { HomeComponent } from '../components/home/home.component';
+import { AboutComponent } from '../components/about/about.component';
+import { ProjectsComponent } from '../components/projects/projects.component';
+import { BlogComponent } from '../components/blog/blog.component';
+import { SocialIconsComponent } from '../assets/social-icons/social-icons.component';
+import { ProjectComponent } from '../components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { ProjectComponent } from './project/project.component';
     ProjectsComponent,
     BlogComponent,
     SocialIconsComponent,
-    ContactFormComponent,
     ProjectComponent
   ],
   imports: [
