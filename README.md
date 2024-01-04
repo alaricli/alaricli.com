@@ -1,4 +1,4 @@
-## alaric.li
+## alaricli.com
 
 Building a new web page
 
